@@ -1,0 +1,54 @@
+/* seller_dashboard.css - Styling for seller dashboard */
+
+.listing-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card .btn-group .btn {
+    border-radius: 0;
+}
+
+.card .btn-group .btn:first-child {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.card .btn-group .btn:last-child {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.message-list .list-group-item {
+    transition: background-color 0.2s;
+}
+
+.message-list .list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.buyer-list .list-group-item {
+    transition: background-color 0.2s;
+}
+
+.buyer-list .list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.tab-content {
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+
+.list-group-item.active {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+@media (max-width: 767.98px) {
+    .listing-img {
+        height: 160px;
+    }
+}
